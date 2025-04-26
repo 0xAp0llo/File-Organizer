@@ -51,7 +51,7 @@ python main.py [source_directory] [options]
 - `-d, --dry-run`: Show what would be done without actually moving files
 - `-n, --no-stats`: Don't show statistics
 
-📝 Examples
+## 📝 Examples
 
 ### Organize the current directory
 ```bash
