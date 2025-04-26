@@ -46,39 +46,32 @@ python main.py [source_directory] [options]
 
 ## ⚙️ Options
 
--t, --target: Target directory (default: same as source)
--r, --recursive: Process directories recursively
--d, --dry-run: Show what would be done without actually moving files
--n, --no-stats: Don't show statistics
+- `-t, --target`: Target directory (default: same as source)
+- `-r, --recursive`: Process directories recursively
+- `-d, --dry-run`: Show what would be done without actually moving files
+- `-n, --no-stats`: Don't show statistics
 
 📝 Examples
 
-Organize the current directory
+### Organize the current directory
 ```bash
 python main.py
 ```
 
-Organize Downloads folder and move files to a different location
+### Organize Downloads folder and move files to a different location
 ```bash
 python main.py ~/Downloads -t ~/Organized
 ```
 
-Preview organization without moving files
+### Preview organization without moving files
 ```bash
 python main.py ~/Documents -d
 ```
 
-Recursively organize a directory
+### Recursively organize a directory
 ```bash
 python main.py ~/Projects -r
 ```
-
-**File Organization Statistics**
-
-Documents: 1 files
-Images: 1 files
-Total files organized: 2
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
