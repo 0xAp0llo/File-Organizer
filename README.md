@@ -30,7 +30,7 @@ The tool organizes files into the following categories:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/file-organizer.git
+git clone https://github.com/0xAp0llo/file-organizer.git
 cd file-organizer
 ```
 
